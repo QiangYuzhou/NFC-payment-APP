@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/m_errorpages_icon_order" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginRight="25.0dip"
+        android:layout_marginTop="35.0dip"
+        android:text="还没有点单,快去下个单吧"
+        android:textColor="#ff888888"
+        android:textSize="19.0sp" />
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/goto_order"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:clickable="true"-->
+        <!--android:paddingBottom=".0dip"-->
+        <!--android:paddingLeft="10.0dip"-->
+        <!--android:paddingRight="10.0dip"-->
+        <!--android:paddingTop="100.0dip">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/goto_order_button"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@drawable/selector_grey_dark_corners_button"-->
+            <!--android:gravity="center"-->
+            <!--android:maxLines="1"-->
+            <!--android:minHeight="0.0dip"-->
+            <!--android:minWidth="100.0dip"-->
+            <!--android:paddingBottom="5.0dip"-->
+            <!--android:paddingLeft="15.0dip"-->
+            <!--android:paddingRight="15.0dip"-->
+            <!--android:paddingTop=".0dip"-->
+            <!--android:text="去下单"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="17.0sp" />-->
+    <!--</FrameLayout>-->
+
+</LinearLayout>

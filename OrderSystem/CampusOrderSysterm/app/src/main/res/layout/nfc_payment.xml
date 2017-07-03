@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="@color/primary"
+        android:text="请将NFC标签靠近手机背部"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_weight="1"
+        android:background="@mipmap/nfc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+
+
+</LinearLayout>

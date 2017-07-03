@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">校园点餐支付系统</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_name">菜单</string>
+    <string name="dish_name">菜名</string>
+    <string name="shopcart">购物车</string>
+    <string name="clear">清空</string>
+
+</resources>
